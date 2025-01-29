@@ -18,7 +18,7 @@ pipeline {
             steps {
                 // Build the Docker image
                 script {
-                    sh 'docker build -t website-tester .'
+                    sh 'docker build -t PipelineJob .'
                 }
             }
         }
